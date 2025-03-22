@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+markdown: kramdown
+
 title: Ilias D. Sarris
 email: Ilias.D.Sarris@outlook.com
 logo: "/assets/images/IS (1).png"
