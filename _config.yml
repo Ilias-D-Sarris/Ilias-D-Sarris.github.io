@@ -10,11 +10,14 @@ url: "https://Ilias-D-Sarris.github.io" # the base hostname & protocol for your 
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-remote_theme: "mmistakes/minimal-mistakes"
+# remote_theme: "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - .sass-cache/
