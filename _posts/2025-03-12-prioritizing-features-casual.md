@@ -1,5 +1,6 @@
 ---
-title:  "Prioritizing Features When Everything is 'High Priority' (Casual)"
+title:  Prioritizing Features When Everything is "High Priority" (Casual)
+layout: single
 ---
 
 ## Introduction: The Prioritization Paradox
