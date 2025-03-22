@@ -1,0 +1,20 @@
+---
+---
+
+// @import "minimal-mistakes";
+
+.page__footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+  
+.page__footer-follow {
+    display: flex;
+    align-items: center;
+}
+
+.page__footer-copyright {
+    text-align: right;
+}

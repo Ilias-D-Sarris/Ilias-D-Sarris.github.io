@@ -1,0 +1,444 @@
+---
+---
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // Skin
+@import "minimal-mistakes"; // Main partials
+@import "minimal-mistakes/sidebar";
+
+
+@font-face {font-family: 'Segoe UI [i]'; src: url(/assets/fonts/segoe-ui.ttf);}
+@font-face {font-family: 'Segoe UI SemiLight [i]'; src: url(/assets/fonts/segoe-ui-semilight.ttf);}
+@font-face {font-family: 'Segoe UI Light [i]'; src: url(/assets/fonts/segoe-ui-light.ttf);}
+@font-face {font-family: 'Segoe UI Light Italics [i]'; src: url(/assets/fonts/segoe-ui-light-i.ttf);}
+@font-face {font-family: 'Segoe UI SemiBold [i]'; src: url(/assets/fonts/segoe-ui-semibold.ttf);}
+@font-face {font-family: 'Segoe WP [i]'; src: url(/assets/fonts/segoe-wp.ttf);}
+@font-face {font-family: 'Segoe WP SemiLight [i]'; src: url(/assets/fonts/segoewp-semilight.ttf);}
+@font-face {font-family: 'Segoe WP Light [i]'; src: url(/assets/fonts/segoewp-light.ttf);}
+
+$global-font-family: "Segoe UI SemiLight [i]", sans-serif !default;
+$text-color: rgb(200, 200, 200);
+$background-color: rgb(35, 35, 35);
+$header-background-color: rgb(0, 0, 0);
+$footer-background-color: rgb(0, 0, 0);
+$border-color: rgb(100, 100, 100);
+
+:root {
+    --text-color: #{$text-color};
+    --background-color: #{$background-color};
+    --header-background-color: #{$header-background-color};
+    --footer-background-color: #{$footer-background-color};
+    --border-color: #{$border-color};
+    --font-sans: #{$global-font-family}, sans-serif;
+    --font-serif: 'MyCustomFont', serif;
+}
+
+[data-theme="dark"] {
+    --text-color: #{$text-color};
+    --background-color: #{$background-color};
+    --header-background-color: #{$header-background-color};
+    --footer-background-color: #{$footer-background-color};
+    --border-color: #{$border-color};
+}
+
+html {
+    font-family: 'Segoe UI SemiLight [i]', sans-serif;
+    font-size: 1.0rem;
+}
+
+html, body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    height: 100%;
+    line-height: 1.4;
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    font-family: 'Segoe UI SemiLight [i]', sans-serif;
+    font-size: 1.0rem;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+}
+
+i, em {
+    font-style: normal; /* Prevent additional slanting */
+    font-synthesis: none; /* Prevent simulated italics or boldness */
+    font-family: 'Segoe UI Light Italics [i]', sans-serif;
+    /* font-size: 3.1rem; */
+}
+
+b, strong {
+    font-style: normal; /* Prevent additional slanting */
+    font-synthesis: none; /* Prevent simulated italics or boldness */
+    font-weight: 400; /* Use 'normal' weight instead of 'bold' */
+    font-family: 'Segoe UI SemiBold [i]', sans-serif;
+    /* font-size: 3.1rem; */
+}
+
+h1 {
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.35 !important;
+    // font-variant: small-caps;
+}
+
+h2 {
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 1.35rem;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+h3 {
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 1.15rem;
+    // margin-left: 1.5em;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+ul {
+    margin-left: 2.5em;
+    padding-left: 0em;
+    list-style-type: square;
+    display: flow-root; /* Prevent margin collapsing */
+}
+
+ul ul {
+    margin-left: 1.2em;
+    list-style-type:disc;
+}
+
+ul ul ul {
+    margin-left: 1.2em;
+    list-style-type: circle;
+}
+
+ul li, ol li {
+    // line-height: 1.2;
+    margin-bottom: 0.4em;
+}
+
+li::marker {
+    font-size: 1.0em; /* Optional: Adjust bullet size */
+}
+
+.res-name {
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 2.22rem;
+    line-height: 1.35 !important;
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+}   
+
+.res-cont-details {
+    margin-left: 0em !important;
+    margin-top: -1.5em !important;
+    margin-bottom: 2.5rem !important;
+    font-size: 0.9em !important;
+}
+
+.res-job {
+    margin-left: 0.6em;
+}
+
+.product {
+    margin-left: 0em;
+    margin-top: 0.35em;
+    margin-bottom: 0.5em;
+}
+
+#last-product-detail {
+    margin-bottom: 0.1em;
+}
+
+.two-column {
+    column-count: 2;
+    column-gap: 0em; /* Adjust as needed */
+}
+
+
+
+
+
+
+
+
+
+.masthead {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    line-height: 1.0;
+    background: var(--header-background-color);
+    border-bottom: 1px solid $border-color;
+}
+
+// .masthead__menu {
+//     background: var(--header-background-color);
+// }
+
+.masthead__inner-wrap {
+    padding-top: 0.5em;
+    padding-right: 0.8em;
+    padding-bottom: 0.5em;
+    padding-left: 0.8em;
+}
+
+.masthead__inner-wrap .site-title {
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    // background-color: #ff0000;
+    letter-spacing: 0.05em;
+}
+
+#site-nav {
+    background: var(--header-background-color);
+}
+
+
+
+
+
+
+// .sidebar {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     height: 100vh; /* Full height */
+//     overflow-y: auto; /* Allows scrolling within the sidebar */
+// }
+
+
+// .sidebar {
+//     position: sticky;
+//     top: 20px; /* Keeps some spacing from the top */
+//     height: calc(100vh - 40px); /* Ensures it stays within viewport */
+//     overflow-y: auto; /* Allows scrolling inside sidebar if needed */
+// }
+
+/* For large screens */
+// .sidebar {
+//     position: sticky;
+//     top: 0px;  /* Adjust as necessary to leave space from the top */
+//     // width: 300px; /* Adjust width based on your design */
+//     display: block; /* Ensure it takes up the correct space */
+// }
+
+// /* For smaller screens */
+// @media (max-width: 768px) {
+//     .sidebar {
+//         position: relative; /* Switch to a more flexible layout on small screens */
+//         width: 100%;  /* Allow the sidebar to be full width on smaller screens */
+//         margin-top: 20px;  /* Add space above if necessary */
+//     }
+// }
+
+// .sidebar {
+//     margin-top: 49px;  /* Set this to match the height of your header */
+//     margin-bottom: 24px;  /* Set this to match the height of your footer */
+//     height: calc(100vh - 73px);  /* Subtract the heights of header and footer */
+//     overflow-y: auto;  /* Allow scrolling inside the sidebar if necessary */
+// }
+
+.sidebar {
+    position: fixed;  /* Keep it fixed on the page */
+    top: 49px;        /* Adjust this value to match the header height */
+    bottom: 24px;     /* Adjust this value to match the footer height */
+    // width: 250px;     /* or whatever width you want */
+    overflow-y: auto; /* Allow scrolling inside the sidebar if necessary */
+}
+
+.sidebar .author__name {
+    display: none; /* Hide the author name */
+}
+
+// .fab.fa-linkedin::before {
+//     // color: #0077B5;
+//     font-size: 1.25em;
+//     margin-top: 3.5em;
+//     padding-top: 3.5em;
+// }
+
+
+
+
+
+
+
+
+
+#main {
+    padding-top: 80px; /* Adjust based on the actual height of the header */
+    padding-bottom: 60px; /* Adjust this value based on your footer height */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// footer {
+//     border-top: 1px solid $border-color;
+// }
+
+.page__footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid $border-color;
+    width: 100%;
+    background: var(--footer-background-color); /* Ensures it stays visible */
+    z-index: 1000; /* Keeps it on top of other content */
+}
+
+.page__footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page__footer-follow {
+    display: flex;
+    align-items: center;
+}
+
+.page__footer-follow li a i {
+    margin-right: 0.2rem; /* Adjust the value as needed */
+}
+
+.page__footer-copyright {
+    font-family: 'Segoe UI [i]', sans-serif;
+    // letter-spacing: 0.05em;
+    text-align: right;
+}
+
+.page__footer-follow li {
+    // display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    // font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    // font-size: 0.75em;
+    // text-transform: uppercase;
+}
+
+.page__footer footer {
+    // clear: both;
+    // margin-left: auto;
+    // margin-right: auto;
+    margin-top: 0em;
+    // max-width: 100%;
+    padding: 0 1em 0em;
+}
+
+.social-icons {
+    line-height: 1.0;
+}
+
+
+
+
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.archive__subtitle {
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 1.7rem;
+    font-variant: small-caps;
+}
+
+.archive__item-title {
+    // margin-bottom: 0.25em;
+    font-family: 'Segoe UI Light [i]', sans-serif;
+    font-size: 1.2rem;
+    // line-height: initial;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+}
+
+.archive__item-excerpt {
+    font-size: 0.8em;
+}
+
+
+// // Hide the sidebar by default (for smaller screens)
+// .sidebar {
+//     display: none;
+// }
+
+// // Show the sidebar on larger screens (>= $large)
+// @include breakpoint(900px) {
+//     .sidebar {
+//         display: block;
+//     }
+// }
+  
+// Limit the maximum width and center the content area when the sidebar is hidden
+#main .page__inner-wrap, .archive {
+    width: auto;     // Allow the width to be determined by its content
+    float: none;    // Remove the float
+    max-width: 600px; // Set the max-width on the parent
+    margin-left: auto;  // Center the parent
+    margin-right: auto; // Center the parent
+    padding-left: 10px; // Add padding to the left
+    padding-right: 0px;
+}
+  
+#main .page__content {
+    width: auto;     // Allow the width to be determined by its content (up to the max-width of the parent)
+    float: none;     // Remove the float
+    margin-left: auto;   // these might not be necessary now, but
+    margin-right: auto;  // they don't hurt, and provide extra safety
+}
+
+.IDS__100_r {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+      display: none;
+    }
+    .archive {
+        max-width: 600px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .IDS__100_r {
+        display: block;
+    }
+    #main .page__inner-wrap, .archive {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+// .archive {
+//     max-width: 600px;
+//     padding-right: 0px;
+//     margin-left: 0px;
+//     margin-right: auto;
+  
+//     @media (max-width: 1024px) {
+//         margin-left: auto;
+//         max-width: 600px;
+//     }
+// }
