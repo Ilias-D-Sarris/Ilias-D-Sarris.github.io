@@ -32,6 +32,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+include:
+  - .nojekyll
+
 defaults:
   # _pages
   - scope:
