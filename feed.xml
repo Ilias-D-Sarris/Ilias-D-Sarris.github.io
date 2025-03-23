@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ilias-d-sarris.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ilias-d-sarris.github.io/" rel="alternate" type="text/html" /><updated>2025-03-23T11:06:31+02:00</updated><id>https://ilias-d-sarris.github.io/feed.xml</id><title type="html">Ilias D. Sarris</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Ilias Sarris</name></author><entry><title type="html">Prioritizing Features When Everything is “High Priority” (Casual)</title><link href="https://ilias-d-sarris.github.io/2025/03/12/prioritizing-features-casual.html" rel="alternate" type="text/html" title="Prioritizing Features When Everything is “High Priority” (Casual)" /><published>2025-03-12T00:00:00+02:00</published><updated>2025-03-12T00:00:00+02:00</updated><id>https://ilias-d-sarris.github.io/2025/03/12/prioritizing-features-casual</id><content type="html" xml:base="https://ilias-d-sarris.github.io/2025/03/12/prioritizing-features-casual.html"><![CDATA[<h2 id="introduction-the-prioritization-paradox">Introduction: The Prioritization Paradox</h2>
+
+<p>As product managers, we often face a large number of feature requests, bug fixes, and new ideas. A common challenge is that many of these items are labeled as “high priority” by stakeholders. This creates a prioritization paradox: if everything is a high priority, then nothing truly is. This lack of focus can lead to wasted resources, project delays, and a product that doesn’t effectively meet user needs. Effective prioritization is key to focusing efforts, managing resources, and delivering a successful product.</p>
+
+<h2 id="the-moscow-method-a-framework-for-clarity">The MoSCoW Method: A Framework for Clarity</h2>
+
+<p>One effective technique for tackling this challenge is the MoSCoW method. MoSCoW stands for <strong>Must have</strong>, <strong>Should have</strong>, <strong>Could have</strong>, and <strong>Won’t have</strong>. This method helps categorize each feature request into one of these four categories:</p>
+
+<ul>
+  <li><strong>Must have:</strong> These are the features that are absolutely critical for the product to function or meet its core purpose. Without these, the product is not viable.</li>
+  <li><strong>Should have:</strong> These are important features that significantly enhance the product’s value, but they are not essential for the initial release. They can be added later if time and resources permit.</li>
+  <li><strong>Could have:</strong> These are desirable features that would improve the user experience, but their absence wouldn’t significantly impact the core functionality.</li>
+  <li><strong>Won’t have:</strong> These are features that are explicitly excluded from the current scope. Clearly defining what you <em>won’t</em> build is just as important as defining what you will.</li>
+</ul>
+
+<p>The MoSCoW method facilitates productive discussions, helps make difficult choices, and ensures everyone is aligned on priorities.</p>
+
+<h2 id="example-applying-moscow-to-a-to-do-list-app">Example: Applying MoSCoW to a To-Do List App</h2>
+
+<p>Let’s imagine we’re building a simple to-do list application. Here’s how we might categorize some potential features using MoSCoW:</p>
+
+<ul>
+  <li><strong>Must have:</strong> Add new tasks, mark tasks as complete, delete tasks.</li>
+  <li><strong>Should have:</strong> Set due dates, create multiple lists, edit existing tasks.</li>
+  <li><strong>Could have:</strong> Color-coded categories, task reminders, recurring tasks.</li>
+  <li><strong>Won’t have:</strong> Integration with social media, voice control.</li>
+</ul>
+
+<p>This exercise clarifies which features are essential for the initial release and which can be deferred or discarded.</p>
+
+<h2 id="conclusion-focus-and-deliver-value">Conclusion: Focus and Deliver Value</h2>
+
+<p>Prioritization is a continuous process, not a one-time event. By using a framework like MoSCoW, product teams can maintain focus, make informed decisions, and deliver a product that provides real value to users. Don’t hesitate to say “no” (or “not now”) to features that don’t align with your core goals.</p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<p>If you’d like to explore product management and prioritization further, I recommend the following books:</p>
+
+<ul>
+  <li><strong>“Inspired: How to Create Products Customers Love” by Marty Cagan:</strong> A comprehensive guide to building successful products, ‘Inspired’ covers the entire product development process, emphasizing user needs and prioritizing features that deliver real value.</li>
+  <li><strong>“The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback” by Dan Olsen:</strong> This book offers a practical framework for applying Lean Startup principles to product development, including techniques for prioritizing features based on user needs and business goals.</li>
+  <li><strong>“Escaping the Build Trap: How Effective Product Management Creates Real Value” by Melissa Perri:</strong> ‘Escaping the Build Trap’ highlights the importance of outcome-oriented product management, providing strategies for aligning product development with business goals and prioritizing outcomes.</li>
+</ul>]]></content><author><name>Ilias Sarris</name></author><summary type="html"><![CDATA[Introduction: The Prioritization Paradox]]></summary></entry><entry><title type="html">Prioritizing Features When Everything is ‘High Priority’</title><link href="https://ilias-d-sarris.github.io/2025/03/11/prioritizing-features.html" rel="alternate" type="text/html" title="Prioritizing Features When Everything is ‘High Priority’" /><published>2025-03-11T00:00:00+02:00</published><updated>2025-03-11T00:00:00+02:00</updated><id>https://ilias-d-sarris.github.io/2025/03/11/prioritizing-features</id><content type="html" xml:base="https://ilias-d-sarris.github.io/2025/03/11/prioritizing-features.html"><![CDATA[<h2 id="introduction-the-prioritization-paradox">Introduction: The Prioritization Paradox</h2>
+
+<p>As product managers, we often face a seemingly endless stream of feature requests, bug fixes, and new ideas.  A common problem is that many, if not most, of these items are labeled as “high priority” by stakeholders.  This creates a prioritization paradox: if everything is a high priority, then <em>nothing</em> is truly a high priority.  This lack of focus can lead to wasted resources, project delays, and ultimately, a product that fails to meet user needs effectively.  Effective prioritization is crucial for focusing efforts, managing resources, and delivering a successful product.</p>
+
+<h2 id="the-moscow-method-a-simple-framework">The MoSCoW Method: A Simple Framework</h2>
+
+<p>One simple yet powerful technique for tackling this challenge is the MoSCoW method.  MoSCoW stands for <strong>Must have</strong>, <strong>Should have</strong>, <strong>Could have</strong>, and <strong>Won’t have</strong>.  This method forces you to categorize each feature request into one of these four categories:</p>
+
+<ul>
+  <li><strong>Must have:</strong> These are the features that are absolutely critical for the product to function or meet its core purpose. Without these, the product is not viable.</li>
+  <li><strong>Should have:</strong> These are important features that significantly enhance the product’s value, but they are not essential for launch. They can be added in later iterations if time and resources allow.</li>
+  <li><strong>Could have:</strong> These are nice-to-have features that would improve the user experience, but their absence wouldn’t significantly impact the core functionality.</li>
+  <li><strong>Won’t have:</strong> These are features that are explicitly excluded from the current scope, either due to technical limitations, resource constraints, or strategic decisions.  Clearly defining what you <em>won’t</em> build is just as important as defining what you will.</li>
+</ul>
+
+<p>The MoSCoW method helps teams have honest conversations, make difficult choices, and create a shared understanding of priorities.</p>
+
+<h2 id="example-applying-moscow-to-a-to-do-list-app">Example: Applying MoSCoW to a To-Do List App</h2>
+
+<p>Imagine we’re building a simple to-do list application. Here’s how we might categorize some potential features using MoSCoW:</p>
+
+<ul>
+  <li><strong>Must have:</strong> Add new tasks, mark tasks as complete, delete tasks.</li>
+  <li><strong>Should have:</strong> Set due dates, create multiple lists, edit existing tasks.</li>
+  <li><strong>Could have:</strong> Color-coded categories, task reminders, recurring tasks.</li>
+  <li><strong>Won’t have:</strong> Integration with social media, voice control, real-time collaboration.</li>
+</ul>
+
+<p>This simple exercise immediately clarifies which features are essential for the initial release and which can be deferred or discarded.</p>
+
+<h2 id="conclusion-focus-and-deliver-value">Conclusion: Focus and Deliver Value</h2>
+
+<p>Prioritization is a continuous process, not a one-time event.  By using a framework like MoSCoW, product teams can maintain focus, make informed decisions, and ultimately deliver a product that provides real value to users. Don’t be afraid to say “no” (or “not now”) to features that don’t align with your core goals.</p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<p>If you’d like to explore product management and prioritization in more detail, I recommend the following books:</p>
+
+<ul>
+  <li><strong>“Inspired: How to Create Products Customers Love” by Marty Cagan:</strong> A classic guide to building successful products, ‘Inspired’ covers the entire product development process, with a strong emphasis on understanding user needs and prioritizing features that deliver real value.</li>
+  <li><strong>“The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback” by Dan Olsen:</strong> This book provides a practical framework for applying Lean Startup principles to product development, including valuable techniques for prioritizing features based on user needs and business goals.</li>
+  <li><strong>“Escaping the Build Trap: How Effective Product Management Creates Real Value” by Melissa Perri:</strong> ‘Escaping the Build Trap’ focuses on the importance of outcome-oriented product management, providing strategies for aligning product development with business goals and prioritizing outcomes over outputs.</li>
+</ul>]]></content><author><name>Ilias Sarris</name></author><summary type="html"><![CDATA[Introduction: The Prioritization Paradox]]></summary></entry><entry><title type="html">Hello World!</title><link href="https://ilias-d-sarris.github.io/2025/03/08/hello-world.html" rel="alternate" type="text/html" title="Hello World!" /><published>2025-03-08T00:00:00+02:00</published><updated>2025-03-08T00:00:00+02:00</updated><id>https://ilias-d-sarris.github.io/2025/03/08/hello-world</id><content type="html" xml:base="https://ilias-d-sarris.github.io/2025/03/08/hello-world.html"><![CDATA[<p>Welcome to my new blog!</p>
+
+<p>This is my first post, and I’m excited to start sharing my thoughts and experiences on a variety of topics, primarily focused on:</p>
+
+<ul>
+  <li><strong>Product Management:</strong> I’ll be sharing insights from my years in the field, discussing best practices, challenges, and the ever-evolving landscape of product development.</li>
+  <li><strong>Artificial Intelligence:</strong> As AI continues to transform our world, I plan to explore its impact on various industries, ethical considerations, and potential future applications.</li>
+  <li><strong>Other technology topics:</strong> I’ll also be covering other interesting technology advancements, trends, and tools that catch my attention.</li>
+</ul>
+
+<p>My goal is to create a space for learning, discussion, and exploration. I hope you’ll join me on this journey! I welcome your comments, feedback, and suggestions for future topics.</p>
+
+<p>Stay tuned for more!</p>]]></content><author><name>Ilias Sarris</name></author><summary type="html"><![CDATA[Welcome to my new blog!]]></summary></entry></feed>
