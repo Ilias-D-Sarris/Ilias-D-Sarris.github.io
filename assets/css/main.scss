@@ -424,6 +424,13 @@ a:hover {
     }
     .IDS__100_r {
         display: block;
+        opacity: 0.8;
+        padding: 5px;
+        border: 1px solid rgb(80.6, 84.6, 92.6);
+        border-radius: 50%;
+    }
+    .IDS__100_r:hover {
+        opacity: 1;
     }
     #main .page__inner-wrap, .archive {
         padding-left: 0px;
