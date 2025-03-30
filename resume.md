@@ -89,7 +89,8 @@ Experienced product manager with 10+ years of experience building and shipping i
 * Project Management Professional (**PMP**), Project Management Institute (**PMI**).
 * **CompTIA A+**, **Network+**, and **Server+** certifications.
 * Microsoft Certified Systems Engineer (**MCSE**) and Database Administrator (**MCDBA**), Microsoft University: Microsoft Certified Trainer (**MCT**).
-* **Stevens Institute of Technology**: Completed first year of *Bachelor of Science in Electrical Engineering (GPA: 3.8)*. Pursued professional certifications and hands-on experience to further develop expertise in technology and project management.
+* **The Cooper Union (1989-1990)**: Attended the School of Engineering. Withdrew during a period of personal challenge, subsequently focusing on professional development and gaining practical experience.
+* **Stevens Institute of Technology (1988-1989)**: Completed first year of *Bachelor of Science in Electrical Engineering (GPA: 3.8)*, and then transferred to *The Cooper Union*.
 
 
 ## SKILLS
